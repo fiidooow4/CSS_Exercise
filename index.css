@@ -1,0 +1,77 @@
+/* index.css */
+
+.nav-link {
+    /* Change the text color to orange */
+    color: orange;
+
+    /* Remove the default underline for links */
+    text-decoration: none;
+}
+
+main {
+    /* Change the max width of main elements to 600px */
+    max-width: 600px;
+
+    /* Center main elements vertically between the left and right edges */
+    margin-top: 24px;
+    margin-bottom: 24px;
+
+    /* Center main elements horizontally between the left and right edges */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    /* Center section elements vertically between the left and right edges */
+    margin-top: 24px;
+    margin-bottom: 24px;
+
+    /* Add space between section content and border */
+    padding: 16px;
+}
+
+#title {
+    /* Change the font size of the title element to 40px */
+    font-size: 40px;
+
+    /* Give the title element's text a bolded font weight */
+    font-weight: 800;
+}
+
+.d-inline {
+    /* Change the display of d-inline elements to inline */
+    display: inline;
+}
+
+nav > ul {
+    /* Remove the bullet points for lists */
+    list-style: none;
+    color: black;
+}
+
+body {
+    /* Change the background color of the body element */
+    background-color: #222222;
+
+    /* Change the text color of the body element's text content */
+    color: #EEEEEE;
+}
+
+#avatar {
+    /* Change the width of the avatar element to 100px */
+    width: 100px;
+
+    /* Center the avatar element horizontally */
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Add margin top and bottom to the avatar element */
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+  
+
+
+
+
+    

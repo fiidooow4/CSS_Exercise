@@ -3,6 +3,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>CSS Intro</title>
+    <link rel="stylesheet" href="index.css">
     <!-- Exercise 1: Add a link element with a href attribute that links your external css file to this document  -->
   </head>
 
@@ -10,14 +11,14 @@
     <header>
       <nav>
         <ul>
-          <li>
-            <a href="/">Home</a>
+          <li class="d-inline" >
+            <a class ="Nav-link" href="/">Home</a>
           </li>
-          <li>
-            <a href="/about">About</a>
+          <li class="d-inline">
+            <a class ="Nav-link"href="/about">About</a>
           </li>
-          <li>
-            <a href="/projects">Projects</a>
+          <li class="d-inline">
+            <a class ="Nav-link" href="/projects">Projects</a>
           </li>
         </ul>
       </nav>
@@ -25,21 +26,21 @@
 
     <main>
       <section>
-        <h1>Main Heading</h1>
-        <img src="./images/example.png" alt="Author Headshot" />
-        <p>Author.. Bio...</p>
+        <h1 id="title">Robert Kiyosaki</h1>
+        <img  id="avatar" src="./images/example.png" alt="Author Headshot" />
+        <p>Kiyosaki is a Japanese American who was born in Hilo, Hawaii. He went to the U.S Merchant Marine Academy soon after graduating from Hilo High School. He graduated from the academy as a deck officer in 1969 and was honored with the Air Medal when he served in the Vietnam War as a gunship pilot. In 1975 Kiyosaki left the Marine Corps and worked as a Xerox machine salesperson. Three years later he started his own company that sold Velcro surfer wallets. The company did well for some time but unfortunately went bankrupt. In the beginning of the 1980s Kiyosaki tried his luck in a business that certified Heavy metal rock band T-shirts. He sold this business in 1985. Nearly a decade later after struggling to achieve success Kiyosaki decided to retire at the age of 47. However he rose once again in 1997 when he established Cashflow Technologies, Inc. This company incorporates and runs two of his brands namely, Rich Dad and Cashflow.</p>
       </section>
       <article>
         <section>
-          <h2>Sub Heading</h2>
-          <p>Lorem ipsum...</p>
+          <h2>Robert Kiyosaki is truly a multi-talented personality</h2>
+          <p>Robert Kiyosaki is truly a multi-talented personality. He is an entrepreneur, investor, motivational speaker, author and also a financial knowledge activist. He is very popular for his series of books called ‘Rich Dad Poor Dad’.</p>
         </section>
         <section>
-          <h2>Sub Heading</h2>
-          <p>Lorem ipsum...</p>
+          <h2>His book </h2>
+          <p>His book series ‘Rich Dad Poor Dad’ is an international bestseller. It is basically a comparison between his two ‘dads’; one was his poor biological father and the other ‘fictitious’ rich dad. The poor father was in fact very educated but had no money but the rich father was a high school dropout but was in fact ‘Hawaii’s richest man’. Robert Kiyosaki has appeared on television several times including on Public Broadcasting Service (PBS), KOCE, California, WLIW of New York and New Jersey area and his fund raising drive.</p>
           <div>
-            <h3>Another Sub Heading</h3>
-            <p>Lorem ipsum...</p>
+            <h3>Kiyosaki is also a real estate investor</h3>
+            <p>Kiyosaki is also a real estate investor. He spends a lot of his money on these investments and has many real estate development ventures. He has various property management projects running throughout America. His assets include big apartment complexes, hotels and golf courses as he revealed in The Alex Jones Show in 2010. He is also the head and investor of oil drilling operations as well as oil wells and even a startup solar company. However he suffered a loss with his company Rich Global LLC that announced bankruptcy in August 2012.</p>
           </div>
         </section>
       </article>
@@ -48,11 +49,11 @@
     <footer>
       <nav>
         <ul>
-          <li>
-            <a href="/privacy">Privacy Policy</a>
+          <li class="d-inline">
+            <a class ="Nav-link" href="/privacy">Privacy Policy</a>
           </li>
-          <li>
-            <a href="/terms">Terms and Conditions</a>
+          <li class="d-inline">
+            <a class ="Nav-link" href="/terms">Terms and Conditions</a>
           </li>
         </ul>
       </nav>
